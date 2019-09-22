@@ -1,0 +1,8 @@
+#ignore everything
+*
+#unignore verything I want to track
+*.html
+*.css
+*.js
+*.php
+*.png
