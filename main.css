@@ -1,0 +1,26 @@
+#form-div {
+    margin: 10px auto;
+}
+
+.form-input {
+    width: 100%;
+}
+
+.input-div {
+    margin-bottom: 10px;
+}
+
+.form-container{
+    text-align: center;
+    width: 100%;
+    margin: 50px auto;
+}
+
+
+/* This applies from 600px onwards*/
+@media (min-width: 600px) {
+    .form-container{
+        width: 60%;
+    }
+
+}

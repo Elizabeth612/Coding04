@@ -1,0 +1,48 @@
+<!--
+Name: Elizabeth Rodriguez
+Assignment: Coding04 
+Purpose: Contact Form  
+Notes: HTML
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="main.css" rel="stylesheet">
+        <link rel="icon" href="favicon.png" type="image/png">
+    </head>
+    <body>
+        <div class="form-container">
+            <div id="msg">
+                <br>
+            </div>
+            <div id="form-div">
+                <form id="email-form" name="email-form" action="email.php" method="post">
+                    <div class="input-div">
+                        <input type="text" class="form-input" id="name" name="name" placeholder="Your Name" maxlength="64" value="">
+                    </div>
+                    <div class="input-div">
+                        <input type="text" class="form-input" id="remail1" name="remail1" placeholder="Return Email" maxlength="64" value="">
+                    </div>
+                    <div class="input-div">
+                        <input type="text" class="form-input" id="remail2" name="remail2" placeholder="Re-Enter Email" maxlength="64" value="">
+                    </div>
+                    <div class="input-div">
+                        <input type="text" class="form-input" id="subject" name="subject" placeholder="Subject" maxlength="64" value="">
+                    </div>
+                    <div class="input-div">
+                        <textarea class="form-input" id="message" name="message" placeholder="Message" rows="10" maxlength="1000"></textarea>
+                    </div>
+                    <div class="">
+                        <button id="contact-send" type="button" class="">Send</button>&nbsp;&nbsp;
+                        <button id="contact-clear" type="button" class="">Clear</button>
+                    </div>
+                </form><!-- form -->
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
