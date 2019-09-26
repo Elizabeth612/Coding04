@@ -1,20 +1,53 @@
+body{
+
+    background: linear-gradient(to bottom, #000, #88b1ae, #a5c4c2, #c3d7d6) no-repeat;
+    background-size: cover;
+
+
+}
+h1{
+    color: white;
+    font-family: 'Candara';
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
 #form-div {
+    width: 100%;
     margin: 10px auto;
+
+    
 }
 
 .form-input {
     width: 100%;
+    font-size: 20px;
+    
 }
 
 .input-div {
+
     margin-bottom: 10px;
 }
 
 .form-container{
     text-align: center;
     width: 100%;
-    margin: 50px auto;
+    margin: 10px auto;
+
+
+    
 }
+.button{
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+
+
 
 
 /* This applies from 600px onwards*/
@@ -22,5 +55,6 @@
     .form-container{
         width: 60%;
     }
-
+    
+    
 }
