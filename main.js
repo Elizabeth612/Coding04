@@ -1,3 +1,10 @@
+/*
+Name: Elizabeth Rodriguez
+Assignment: Coding04 
+Purpose: Contact Form / add error or success message once validated.  
+Notes: J-SCRIPT
+*/
+
 "use strict";
 
 function validEmail(email) {

@@ -1,4 +1,12 @@
 <?php
+
+/*
+Name: Elizabeth Rodriguez
+Assignment: Coding04 
+Purpose: Contact Form / add error or success message once validated.  
+Notes: PHP
+*/
+
 //Acept the location of a web page for redirect
 function redirect($url) {
     header('Location: '.$url);
